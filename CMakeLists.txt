@@ -64,7 +64,6 @@ target_link_libraries(${PROJECT_NAME} INTERFACE
         SPIRV-Headers::SPIRV-Headers
         volk::volk_headers
         glslang
-        GPUOpen::VulkanMemoryAllocator
         SDL3::SDL3
         SDL3_image::SDL3_image
         SDL3_mixer::SDL3_mixer
