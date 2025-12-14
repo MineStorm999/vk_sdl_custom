@@ -28,6 +28,7 @@ CPMAddPackage("gh:KhronosGroup/glslang#vulkan-sdk-1.3.268.0")
 CPMAddPackage("gh:zeux/volk#41c8f70")
 
 CPMAddPackage("gh:GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator#dc8a3fb")
+CPMAddPackage("gh:YaaZ/VulkanMemoryAllocator-Hpp#main")
 
 CPMAddPackage("gh:recp/cglm#d93b46b")
 
@@ -72,6 +73,7 @@ target_link_libraries(${PROJECT_NAME} INTERFACE
         assimp::assimp
         cimgui
         enet
+        VulkanMemoryAllocator-Hpp::VulkanMemoryAllocator-Hpp
 )
 
 if (PROJECT_IS_TOP_LEVEL)
