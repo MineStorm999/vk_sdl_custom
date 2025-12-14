@@ -20,14 +20,14 @@ CPMAddPackage("gh:libsdl-org/SDL_mixer#main")
 
 CPMAddPackage("gh:google/googletest#v1.14.x")
 
-CPMAddPackage("gh:KhronosGroup/Vulkan-Headers#vulkan-sdk-1.3.268.0")
-CPMAddPackage("gh:KhronosGroup/SPIRV-Headers#vulkan-sdk-1.3.268.0")
-CPMAddPackage("gh:KhronosGroup/SPIRV-Tools#vulkan-sdk-1.3.268.0")
-CPMAddPackage("gh:KhronosGroup/glslang#vulkan-sdk-1.3.268.0")
+# CPMAddPackage("gh:KhronosGroup/Vulkan-Headers#vulkan-sdk-1.3.268.0")
+# CPMAddPackage("gh:KhronosGroup/SPIRV-Headers#vulkan-sdk-1.3.268.0")
+# CPMAddPackage("gh:KhronosGroup/SPIRV-Tools#vulkan-sdk-1.3.268.0")
+# CPMAddPackage("gh:KhronosGroup/glslang#vulkan-sdk-1.3.268.0")
 
-CPMAddPackage("gh:zeux/volk#41c8f70")
+# CPMAddPackage("gh:zeux/volk#41c8f70")
 
-CPMAddPackage("gh:GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator#dc8a3fb")
+# CPMAddPackage("gh:GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator#dc8a3fb")
 CPMAddPackage("gh:YaaZ/VulkanMemoryAllocator-Hpp#master")
 
 CPMAddPackage("gh:recp/cglm#d93b46b")
