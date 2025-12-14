@@ -57,12 +57,12 @@ if (enet_ADDED)
             ${enet_SOURCE_DIR}/unix.c
             ${enet_SOURCE_DIR}/win32.c)
 endif ()
+# Vulkan::Headers
+# SPIRV-Headers::SPIRV-Headers
+# volk::volk_headers
 
 add_library(${PROJECT_NAME} INTERFACE)
 target_link_libraries(${PROJECT_NAME} INTERFACE
-        Vulkan::Headers
-        SPIRV-Headers::SPIRV-Headers
-        volk::volk_headers
         glslang
         SDL3::SDL3
         SDL3_image::SDL3_image
