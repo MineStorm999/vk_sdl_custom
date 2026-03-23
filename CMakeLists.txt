@@ -14,7 +14,7 @@ file(
 include(${CMAKE_CURRENT_BINARY_DIR}/cmake/CPM.cmake)
 
 CPMAddPackage("gh:libsdl-org/SDL#main")
-CPMAddPackage("gh:libsdl-org/SDL_image#main")
+CPMAddPackage("gh:libsdl-org/SDL_image#ad58ecf")
 CPMAddPackage("gh:libsdl-org/SDL_ttf#main")
 CPMAddPackage("gh:libsdl-org/SDL_mixer#main")
 
